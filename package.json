@@ -1,21 +1,27 @@
 {
-  "name": "react-component-library",
+  "name": "@charlesread/react-component-library",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "exports": "./dist",
+  "main": "vite.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "vite build"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlesread/react-component-library.git"
+  },
+  "author": "Charles Read",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charlesread/react-component-library/issues"
+  },
+  "homepage": "https://github.com/charlesread/react-component-library#readme",
   "devDependencies": {
     "react": "^18.2.0",
-    "typescript": "^5.1.6",
     "vite": "^4.4.2"
   },
   "peerDependencies": {
-    "react": "^18.2.0"
+    "react": "^18.2.0",
   }
 }
