@@ -1,0 +1,21 @@
+{
+  "name": "react-component-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "exports": "./dist",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "react": "^18.2.0",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.2"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}
