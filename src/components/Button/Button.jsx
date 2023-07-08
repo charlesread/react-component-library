@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useCallback } from "react";
 
 export function Button({children}) {
+
+    const onClick = useCallback(function(e) {
+        alert('click!')
+    }, [])
+
     return (
         <>
-            <button>{ children }</button>
+            <button onClick={onClick}>{ children }</button>
         </>
     )
 }
