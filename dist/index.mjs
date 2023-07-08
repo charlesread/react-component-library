@@ -1,10 +1,10 @@
 import t, { useCallback as c } from "react";
-function r({ children: e }) {
-  const n = c(function(l) {
-    alert("click!");
+function a({ onClick: e, children: n }) {
+  const l = e || c(function(o) {
+    console.log(o), alert("click!!");
   }, []);
-  return /* @__PURE__ */ t.createElement(t.Fragment, null, /* @__PURE__ */ t.createElement("button", { onClick: n }, e));
+  return /* @__PURE__ */ t.createElement(t.Fragment, null, /* @__PURE__ */ t.createElement("button", { onClick: l }, n));
 }
 export {
-  r as Button
+  a as Button
 };
